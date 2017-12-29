@@ -5,6 +5,7 @@ $brand-primary: #16c3b7;
   font-family: "Encode Sans", sans-serif;
   outline: none;
   cursor: pointer;
+  letter-spacing: 0.5px;
 
   &:focus {
     box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);

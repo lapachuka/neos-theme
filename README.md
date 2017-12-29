@@ -12,8 +12,10 @@ $ npm install --save neos-theme
 
 ```js
  <link rel="stylesheet" href="node_modules/neos-theme/dist/style.css">
+ <link href="https://fonts.googleapis.com/css?family=Encode+Sans:300,400,500,600,700,800|Open+Sans|Roboto" rel="stylesheet">
 ```
 
-## License
+## Example styles
 
-MIT © [Neos]()
+<https://lapachuka.github.io/neos-theme/>
+
