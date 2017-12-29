@@ -1,7 +1,6 @@
 @import "variables";
 @import "../node_modules/bootstrap/scss/bootstrap";
-@import "components/buttons";
-@import "components/inputs";
+@import "components/components";
 
 body {
   color: $text-color;

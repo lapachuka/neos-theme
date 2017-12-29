@@ -6707,6 +6707,72 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 .custom-radio .custom-control-description {
   padding-left: 1rem; }
 
+.neos-switch {
+  position: relative;
+  width: 50px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none; }
+
+.neos-switch-checkbox {
+  display: none; }
+
+.neos-switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  height: 32px;
+  padding: 0;
+  line-height: 30px;
+  border: solid 2px #cfd4d7;
+  border-radius: 30px;
+  background-color: white;
+  transition: background-color 0.3s ease-in; }
+
+.neos-switch-label:before {
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  margin: 0;
+  background: #cfd4d7;
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  right: 21px;
+  border: 1px solid #cfd4d7;
+  border-radius: 30px;
+  transition: all 0.3s ease-in 0s; }
+
+.neos-switch-checkbox:checked + .neos-switch-label {
+  background-color: #16c3b7; }
+
+.neos-switch-checkbox:checked + .neos-switch-label,
+.neos-switch-checkbox:checked + .neos-switch-label:before {
+  border-color: #16c3b7; }
+
+.neos-switch-checkbox:checked + .neos-switch-label:before {
+  right: 2px;
+  background: white; }
+
+.loader {
+  border: 5px solid #16c3b7;
+  border-top: 5px solid #F5F5F5;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+.separator {
+  height: 2px;
+  margin: 20px -15px;
+  background: #cfd4d7; }
+
 body {
   color: #778186;
   font-size: 18px;

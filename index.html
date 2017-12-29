@@ -15,15 +15,16 @@
     <h5>Example heading</h5>
     <h6>Example heading</h6>
     <div>
-      <br>
+      <div class="separator"></div>
       <p>My first paragraph.</p>
-      <p><strong>These techniques</strong> considerably increase the complexity of Web pages, <strong>offer</strong> limited flexibility, suffer from
+      <p><strong>These techniques</strong> considerably increase the complexity of Web pages, <strong>offer</strong>
+        limited flexibility, suffer from
         interoperability problems, and create hardships <strong>for people with disabilities</strong>.
       </p>
     </div>
     <div class="separator"></div>
 
-    <div class="mt-5">
+    <div class="mt-4">
       <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
       <button type="button" class="btn btn-primary">Primary</button>
 
@@ -45,26 +46,67 @@
     </div>
     <div class="separator"></div>
 
-    <div class="mt-5">
-      <form class="form-inline">
-        <input class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
-
-        <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-          <div class="input-group-addon">@</div>
-          <input class="form-control" id="inlineFormInputGroup" placeholder="Username">
+    <div class="mt-4">
+      <form>
+        <div class="row">
+          <div class="col-3">
+            <input class="form-control mb-2 mr-sm-2 mb-sm-0" id="inlineFormInput" placeholder="Jane Doe">
+          </div>
+          <div class="col-3">
+            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+              <div class="input-group-addon">@</div>
+              <input class="form-control" id="inlineFormInputGroup" placeholder="Username">
+            </div>
+          </div>
         </div>
       </form>
 
-      <div class="form-group has-success mt-2">
-        <label class="form-control-label" for="inputSuccess1">Input with success</label>
-        <input type="text" class="form-control" id="inputSuccess1">
+      <div class="row">
+        <div class="col-3">
+          <div class="form-group has-success mt-3">
+            <label class="form-control-label" for="inputSuccess1">Input with success</label>
+            <input type="text" class="form-control" id="inputSuccess1">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="form-group has-danger mt-3">
+            <label class="form-control-label" for="inputDanger1">Input with danger</label>
+            <input type="text" class="form-control" id="inputDanger1">
+          </div>
+        </div>
       </div>
 
-      <div class="form-group has-danger mt-2">
-        <label class="form-control-label" for="inputDanger1">Input with danger</label>
-        <input type="text" class="form-control" id="inputDanger1">
+      <div class="row mt-2">
+        <div class="col-3">
+          <div class="input-group">
+            <input name="email"
+                   id="email"
+                   type="email"
+                   class="form-control"
+                   placeholder="example@example.com">
+            <span class="input-group-btn">
+            <button type="button" class="btn btn-primary">
+                    OK
+                </button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1">
+          <div class="neos-switch mt-3">
+            <input type="checkbox"
+                   name="neos-switch"
+                   class="neos-switch-checkbox"
+                   id="neos-switch">
+            <label class="neos-switch-label"
+                   for="neos-switch"></label>
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="separator"></div>
 
     <div class="mt-4">
@@ -91,7 +133,14 @@
       </div>
     </div>
     <div class="separator"></div>
+
+    <div class="mt-4">
+      <div class="loader"></div>
+    </div>
+
+    <div class="separator"></div>
   </div>
+
 
 </div>
 
