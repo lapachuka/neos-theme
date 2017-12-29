@@ -1,0 +1,31 @@
+$body-bg: #fafafa;
+$red: #e14051;
+$brand-primary: #16c3b7;
+$brand-success: $brand-primary;
+$text-color: #778186;
+$headings-color: $text-color;
+$btn-secondary-color: #aeb3b6;
+$btn-secondary-border: #cfd4d7;
+$input-color: #5f676b;
+$custom-control-indicator-bg: white;
+$gray-light: #cfd4d7;
+
+
+$headings-font-weight: 300;
+$font-weight-normal: 300;
+$btn-font-weight: 600;
+
+$font-family-sans-serif: "Encode Sans", sans-serif;
+$border-width: 2px;
+
+//Forms
+
+$input-padding-y: 0.9rem;
+$input-padding-x: 1.25rem;
+$input-border-color: $btn-secondary-border;
+$input-border-focus: $btn-secondary-border;
+$input-color-placeholder: $text-color;
+$input-box-shadow-focus: 0 3px 8px 0 rgba(0, 0, 0, 0.07);
+
+$state-success-text: $text-color;
+$state-success-border: $brand-primary;

@@ -1,0 +1,50 @@
+.has-success .form-control-label,
+.has-danger .form-control-label {
+  font-size: .875rem;
+  color: $input-color;
+  font-weight: 500;
+}
+
+.custom-checkbox {
+  .custom-control-input {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none;
+  }
+
+  .custom-control-indicator {
+    height: 1.25rem;
+    width: 1.25rem;
+    border: $border-width solid $btn-secondary-border;
+    box-shadow: none;
+    background-size: 65%;
+  }
+
+  .custom-control-input:checked ~ .custom-control-indicator {
+    border-color: $brand-primary;
+    box-shadow: none;
+  }
+
+  .custom-control-description {
+    padding-left: 1rem;
+  }
+}
+
+.custom-radio{
+  .custom-control-input:focus ~ .custom-control-indicator {
+    box-shadow: none;
+  }
+
+  .custom-control-indicator{
+    height: 1.25rem;
+    width: 1.25rem;
+    border: $border-width solid $brand-primary;
+  }
+
+  .custom-control-description {
+    padding-left: 1rem;
+  }
+}
